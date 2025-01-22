@@ -9,7 +9,7 @@ from openai import OpenAI
 # ========================
 # 配置区域（请替换API密钥）⚠️
 # ========================
-DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY")
+DEEPSEEK_API_KEY = "sk-cba0efd438ce4ba8a548bbff7a9c80f1"
 API_BASE_URL = "https://api.deepseek.com"
 
 # ========================

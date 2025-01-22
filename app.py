@@ -86,7 +86,7 @@ def get_ai_response(prompt):
     """获取AI回复"""
     try:
         response = client.chat.completions.create(
-            model="deepseek-chat",
+            model="deepseek-reasoner",
             messages=[{
                 "role": "system",
                 "content": "你是东吴证券专业金融分析助手，提供严谨专业的分析报告"
